@@ -1,0 +1,22 @@
+11 Table already exists!
+12 Table created successfully
+13 Sorry! Couldn't craete table! 
+
+21 Data Inserted Correctly
+22 Sorry! Couldn't Insert Data!
+
+31 Found What you searched for ?
+32 No Data Found!
+
+41 Updated !
+42 Record To Update Not Found!
+43 Table Not Found!
+
+51 Deleted !
+52 Record To Delete Not Found!
+53 Couldn't Open File!
+
+61 Syntax Error!
+
+create table TBLName (id, name , salary);
+insert into TBLName (50, Name, 5000);

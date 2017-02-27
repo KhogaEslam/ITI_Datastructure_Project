@@ -1,0 +1,89 @@
+create_name					
+create_detail					
+
+-------------
+Declaration
+-------------
+void create_name(char*name);
+int create_detail(char*name,char*detail);
+
+Return value
+--------------
+on sucsess:
+	create_name doesnot return a value(void).
+	create_detail return the value as int.
+
+Example:
+create table students (id int 2,name varchar 20);	
+		==============================================
+Insert All columns				
+
+------------
+Declaration
+------------
+int InsertAllColumns(char * TableName , int TableNameSize , char * Values , int ValuesSize);
+ 
+Return value 
+-------------
+on sucsess:
+	InsertAllcolunms return the value as int.
+Example:
+insert into students values(1,'nada');
+		===========================================
+Update Record
+
+------------
+Declaration
+------------
+int updateRecord(char* tableName, char* val, char* colName,int colu,char* newd);
+
+Return value 
+-------------
+on sucsess:
+	updateRecord return the value as int.
+Example:
+update students set name='nada' where id=1;
+		=============================================
+select All
+
+-----------
+Declaration
+-----------
+char * selectall(char* table);
+
+Return value 
+-------------
+on sucsess:
+	selectall return a pointr to character.
+Example:
+select * from students;
+		===============================================
+Delete Record
+
+------------
+Declaration
+------------
+int deleteRecord(char* tableName, char* val, char* colName); 		
+
+Return value 
+-------------
+on sucsess:
+	DeleteRecord return the value as int.
+
+Example:
+delete from students where name='nada';
+	=======================================================
+Parse Query
+
+===========
+Declararion
+===========
+int parsequery(char*userquery);
+
+Return value 
+------------
+on sucsess:
+	Parse Query return the value as int.
+	=====================================================
+
+
